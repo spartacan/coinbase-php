@@ -1,5 +1,5 @@
 {
-    "name": "coinbase/coinbase",
+    "name": "spartacan/coinbase-php",
     "description": "Coinbase API library",
     "keywords": [ "bitcoin", "coinbase" ],
     "homepage": "http://coinbase.com",
