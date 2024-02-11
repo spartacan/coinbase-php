@@ -15,6 +15,7 @@ class ResourceType
     const CHECKOUT = 'checkout';
     const DEPOSIT = 'deposit';
     const EMAIL = 'email';
+    const PHONE = 'phone';
     const MERCHANT = 'merchant';
     const ORDER = 'order';
     const PAYMENT_METHOD = 'payment_method';

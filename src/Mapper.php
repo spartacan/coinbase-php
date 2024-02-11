@@ -806,6 +806,7 @@ class Mapper
             case ResourceType::DEPOSIT:
                 return $expanded ? $this->injectDeposit($data) : new Deposit($data['resource_path']);
             case ResourceType::EMAIL:
+            case ResourceType::PHONE:
                 return new Email($data['email']);
             case ResourceType::MERCHANT:
                 return $expanded ? $this->injectMerchant($data) : new Merchant($data['resource_path']);
